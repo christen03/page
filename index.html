@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39eac676bb.js" crossorigin="anonymous"></script>
+    <title>Christen Xie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- pre-resized image-->
+    <img src="images/christenxie2.jpg" class="christen2">
+    <!-- header section-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/christenlogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <marquee class="working">Thanks for visiting my site! My about project
+                pages are under construction, so they link to GitHub for now.
+            </marquee>
+            <div class="header-flex">
+                <div class="header-text">
+                    <p>Student Developer</p>
+                    <h1>Hi! My name is <span><br>Christen Xie.</span></h1>
+                </div>
+                <img src="images/christenxie.jpeg">
+            </div>
+        </div>
+    </div>
+    <!-- about section-->
+    <div id="about">
+        <div class="container">
+            <div class="row-flex">
+                <div class="about-col-1">
+                    <canvas id="christen2-resized" class="christen2-resized"></canvas>
+                    <script src="resize.js"></script>
+                </div>
+                <div class="about-col-2">
+                    <h1>About me</h1>
+                    <p>Hi there! Thanks for visiting my site! My name is Christen, I'm a second-year computer
+                        engineering major at UCSD. I'm currently exploring the world of software engineering and am
+                        always
+                        looking for new opportunities to dive into new technologies.
+                        I absolutely love working with people. Whether it be with my fellow engineers to build an app,
+                        with my rowing team to cross the finish line first, or classmates to create a presentation,
+                        years of teamwork have led me to hone my communication, leadership, and conflict resolution
+                        skills.</p>
+                    <div class="tabs-flex-box">
+                        <p class="tab-links activated-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="about-info open-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Frontend/Mobile Development</span><br>HTML, CSS, Javascript, Swift
+                            </li>
+                            <li>
+                                <span>Backend Development</span><br>Express/Node.js, MongoDB, REST APIs, Postman,
+                                Firebase
+                            </li>
+                            <li>
+                                <span>Other</span><br>Git, Java, Python, LaTeX, MATLAB
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-info" id="experience">
+                        <ul>
+                            <li>
+                                <span>2022</span><br>Triton Software Engineering<br>
+                                <span id="extra">Technologies include: Express/Node.js, Git, Swift, Firebase</span>
+                            </li>
+                            <li>
+                                <span>2021-2022</span><br>Materials Virtual Lab<br>
+                                <span id="extra">Technologies include: MongoDB, Python</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-info" id="education">
+                        <ul>
+                            <li>
+                                <span>CSE 30 - UC San Diego</span><br>Computer Organization and Systems Programming<br>
+                                <span id="extra">C, Assembly, UNIX environments</span>
+                            </li>
+                            <li>
+                                <span>CSE 12 - UC San Diego</span><br>Basic Data Strcutres and Object-Oriented
+                                Design<br>
+                                <span id="extra">Basic data structures and algorithms, Java</span>
+                            </li>
+                            <li>
+                                <span>CSE 21 - UC San Diego</span><br>Mathematics for Algorithms and Systems<br>
+                                <span id="extra">Discrete mathematics, Graph algorithms, Counting techniques</span>
+                            </li>
+                            <li>
+                                <span>CIS 084 - San Jose City College</span><br>Java Programming<br>
+                                <span id="extra">Java, OOP</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">Check out my full resume!</a>
+        </div>
+    </div>
+
+    <!----work---->
+    <div id="work">
+        <div class="container">
+            <h1>Check out some things I've been working on!</h1>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="images/alum.svg" id="alum">
+                    <div class="work-info">
+                        <h3>ALUM Mobile App</h3>
+                        <p>A mobile app used to connect Northwood High School students
+                            with alumni mentors around the world!
+                        </p>
+                        <a href="#">More info!</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="images/pkmngame.png">
+                    <div class="work-info">
+                        <h3>Pokemon Web Game</h3>
+                        <p>Relive your childhood nostaglia with a Pokemon-esque game right
+                            in your browser!
+                        </p>
+                        <a href="#">More info!</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/christen03" class="button">Check out my full GitHub here!</a>
+        </div>
+    </div>
+    <!-- contact/links-->
+    <div id="contact">
+        <div class="container">
+            <div class="flex-row">
+                <div class="content-left">
+                    <h1>Feel free to contact me!</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>christenxie@gmail.com</p>
+                    <p><i class="fa-solid fa-school"></i>c2xie@ucsd.edu</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/christen-xie-473ba61a1/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/christ3nx/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/christen03"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h2>Need a song rec?</h2>
+                    <iframe src="https://open.spotify.com/embed/track/7ACT6YaXbYvl7hRWEOOEHQ?si=a55c385d1ee14912"
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script>
+
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var allTabs = document.getElementsByClassName("about-info");
+
+        function opentab(tabname) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("activated-link");
+            }
+            for (singleTab of allTabs) {
+                singleTab.classList.remove("open-tab");
+            }
+
+            event.currentTarget.classList.add("activated-link");
+            document.getElementById(tabname).classList.add("open-tab");
+        }
+
+    </script>
+</body>
+
+</html>
