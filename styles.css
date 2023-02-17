@@ -213,7 +213,7 @@ nav ul li a:hover::after {
 .work-item {
     position: relative;
     overflow: hidden;
-    width: 33vw;
+    width: 25vw;
     height: 50vh;
     overflow: hidden;
     background-color: black;
